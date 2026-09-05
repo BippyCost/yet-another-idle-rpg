@@ -147,6 +147,7 @@ class Hero extends Person {
                                 //equipment: {},
                                 books: {},
                                 active_effects: {},
+                                settings: {},
                         }
                 };
                 this.equipment = {
@@ -638,7 +639,8 @@ character.update_stats = function () {
                 * (character.xp_bonuses.multiplier.levels[bonus_target] || 1)
                 * (character.xp_bonuses.multiplier.skills[bonus_target] || 1)
                 * (character.xp_bonuses.multiplier.books[bonus_target] || 1)
-                * (character.xp_bonuses.multiplier.active_effects[bonus_target] || 1);
+                * (character.xp_bonuses.multiplier.active_effects[bonus_target] || 1)
+                * (character.xp_bonuses.multiplier.settings[bonus_target] || 1);
 
         const bonus = character.xp_bonuses.total_multiplier[bonus_target];
 

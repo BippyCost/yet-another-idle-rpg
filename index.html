@@ -1067,6 +1067,11 @@
                     <input type="range" id="options_expo_threshold" name="options_expo_threshold" min="3" max="18" onchange="option_expo_threshold()" value="9" oninput="this.nextElementSibling.value = '1e'+this.value">
                     <output>1e9</output>
                 </div>
+                <div class="options_choice options_choice_range">                      <!-- new -->
+                <label for="options_xp_multiplier">XP multiplier:</label>
+                <input type="range" id="options_xp_multiplier" name="options_xp_multiplier" min="1" max="10" step="0.5" value="1" onchange="option_xp_multiplier()" oninput="this.nextElementSibling.value = this.value+'x'">
+                <output>1x</output>
+                </div>
                 <div class="options_choice">
                     <input type="checkbox" id="options_use_uncivilised_temperature_scale" name="options_use_uncivilised_temperature_scale" onclick = "option_use_uncivilised_temperature_scale()">
                     <label for="options_use_uncivilised_temperature_scale">Use Fahrenheit instead of Celsius</label>

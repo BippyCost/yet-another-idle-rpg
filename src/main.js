@@ -3820,6 +3820,10 @@ function load(save_data) {
         game_options.expo_threshold = save_data.options?.expo_threshold;
         option_expo_threshold(game_options.expo_threshold);
 
+        game_options.xp_multiplier = save_data.options?.xp_multiplier ?? 1;   // new
+        option_xp_multiplier(game_options.xp_multiplier);                     // new
+
+
         game_options.hide_max_level_skills = save_data.options?.hide_max_level_skills;
         option_hide_max_level_skills(game_options.hide_max_level_skills);
 

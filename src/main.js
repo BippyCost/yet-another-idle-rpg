@@ -284,6 +284,7 @@ const game_options = {
     hide_max_level_skills: false,
     use_text_outlines_for_tooltips: true,
     use_text_outlines_for_bars: true,
+    xp_multiplier: 1,
 
     stop_crafting_on_material_change: true, //not changeable
 };
@@ -429,6 +430,16 @@ function option_expo_threshold(option) {
         input.value = option;
     }
     input.nextElementSibling.value = '1e'+game_options.expo_threshold;
+}
+
+function option_xp_multiplier(option) {          // <- new, goes right here
+    const input = document.getElementById("options_xp_multiplier");
+    game_options.xp_multiplier = Number(option ?? input.value ?? 1);
+    if (option !== undefined) input.value = option;
+
+    character.xp_bonuses.multiplier.settings.all = game_options.xp_multiplier;
+    character.xp_bonuses.multiplier.settings.all_skill = game_options.xp_multiplier;
+    character.update_stats();
 }
 
 function option_use_uncivilised_temperature_scale(option) {
@@ -5808,6 +5819,7 @@ window.change_stance = change_stance;
 window.fav_stance = fav_stance;
 
 window.openCraftingWindow = open_crafting_window;
+window.option_xp_multiplier = option_xp_multiplier;
 window.closeCraftingWindow = close_crafting_window;
 window.switchCraftingRecipesPage = switch_crafting_recipes_page;
 window.switchCraftingRecipesSubpage = switch_crafting_recipes_subpage;

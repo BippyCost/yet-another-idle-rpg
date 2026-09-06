@@ -2062,6 +2062,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
         enemy_count: 100, 
         types: [{type: "rough", stage: 2, xp_gain: 7}, {type: "wet", stage: 1}],
         enemies_list: ["Alligator", "Snapping turtle", "Giant snake"],
+		enemy_group_size: [1,3],
         enemy_stat_variation: 0.2,
         is_unlocked: true, 
         name: "The swamplands", 

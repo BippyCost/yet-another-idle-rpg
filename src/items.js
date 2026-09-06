@@ -173,7 +173,8 @@ class Item {
         }
         this.id = id;
         this.description = description;
-        this.saturates_market = saturates_market ?? true;
+        //this.saturates_market = saturates_market ?? true;
+		this.saturates_market = false;
 
         this.material_type = material_type;
         

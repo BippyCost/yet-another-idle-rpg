@@ -2457,7 +2457,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
             skill_xp_per_tick: 1,
             is_unlocked: false,
             gained_resources: {
-                resources: [{name: "Low quality iron ore", ammount: [[1,1], [1,3]], chance: [0.4, 1]}], 
+                resources: [{name: "Low quality iron ore", ammount: [[1,1], [3,6]], chance: [0.4, 1]}], 
                 time_period: [20, 7],
                 skill_required: [0, 15]
             },
@@ -2469,7 +2469,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
             skill_xp_per_tick: 5,
             is_unlocked: false,
             gained_resources: {
-                resources: [{name: "Iron ore", ammount: [[1,1], [1,3]], chance: [0.3, 1]}],
+                resources: [{name: "Iron ore", ammount: [[1,1], [2,5]], chance: [0.3, 1]}],
                 time_period: [45, 10],
                 skill_required: [7, 24]
             },
@@ -2481,7 +2481,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
             skill_xp_per_tick: 16,
             is_unlocked: false,
             gained_resources: {
-                resources: [{name: "Atratan ore", ammount: [[1,1], [1,3]], chance: [0.3, 1]}],
+                resources: [{name: "Atratan ore", ammount: [[1,1], [2,5]], chance: [0.3, 1]}],
                 time_period: [60, 20],
                 skill_required: [12, 30]
             },
@@ -2500,7 +2500,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
             skill_xp_per_tick: 5,
             is_unlocked: false,
             gained_resources: {
-                resources: [{name: "Wood log", ammount: [[1,1], [1,1]], chance: [0.3, 1]}, {name: "Tree sap", ammount: [[1,1], [1,1]], chance: [0.01, 0.1]}],
+                resources: [{name: "Wood log", ammount: [[1,1], [2,2]], chance: [0.3, 1]}, {name: "Tree sap", ammount: [[1,1], [1,1]], chance: [0.01, 0.1]}],
                 time_period: [60, 15],
                 skill_required: [7, 22]
             },
@@ -2511,7 +2511,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
             skill_xp_per_tick: 12,
             is_unlocked: false,
             gained_resources: {
-                resources: [{name: "Ash wood log", ammount: [[1,1], [1,1]], chance: [0.3, 1]}, {name: "Tree sap", ammount: [[1,1], [1,1]], chance: [0.01, 0.1]}],
+                resources: [{name: "Ash wood log", ammount: [[1,1], [2,2]], chance: [0.3, 1]}, {name: "Tree sap", ammount: [[1,1], [1,1]], chance: [0.01, 0.1]}],
                 time_period: [60, 20],
                 skill_required: [12, 30]
             },
@@ -2541,7 +2541,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
             skill_xp_per_tick: 16,
             is_unlocked: false,
             gained_resources: {
-                resources: [{name: "Hickory wood log", ammount: [[1,1], [1,1]], chance: [0.3, 1]}, {name: "Tree sap", ammount: [[1,1], [1,1]], chance: [0.01, 0.1]}],
+                resources: [{name: "Hickory wood log", ammount: [[1,1], [2,2]], chance: [0.3, 1]}, {name: "Tree sap", ammount: [[1,1], [1,1]], chance: [0.01, 0.1]}],
                 time_period: [60, 20],
                 skill_required: [20, 35],
                 scales_with_skill: true,
@@ -2602,7 +2602,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
             is_unlocked: false,
             gained_resources: {
                 resources: [
-                    {name: "Wool", ammount: [[1,1], [1,3]], chance: [0.1, 1]},
+                    {name: "Wool", ammount: [[1,1], [2,3]], chance: [0.1, 1]},
                 ], 
                 time_period: [60, 15],
                 skill_required: [0, 15]

@@ -157,9 +157,9 @@ const enemy_abilites = {
         tags: ["living", "beast", "wolf rat"],
         stats: {health: 20, attack: 4, agility: 5, dexterity: 4, magic: 0, intuition: 5, attack_speed: 0.8, defense: 0},
         loot_list: [
-            {item_name: "Rat tail", chance: 0.04},
-            {item_name: "Rat fang", chance: 0.04},
-            {item_name: "Rat pelt", chance: 0.01}
+            {item_name: "Rat tail", chance: 0.08},
+            {item_name: "Rat fang", chance: 0.08},
+            {item_name: "Rat pelt", chance: 0.03}
         ]
     });
 
@@ -172,9 +172,9 @@ const enemy_abilites = {
         tags: ["living", "beast", "wolf rat"],
         stats: {health: 30, attack: 6, agility: 6, dexterity: 5, intuition: 6, magic: 0, attack_speed: 1, defense: 1},
         loot_list: [
-            {item_name: "Rat tail", chance: 0.04},
-            {item_name: "Rat fang", chance: 0.04},
-            {item_name: "Rat pelt", chance: 0.01},
+            {item_name: "Rat tail", chance: 0.1},
+            {item_name: "Rat fang", chance: 0.1},
+            {item_name: "Rat pelt", chance: 0.05},
         ]
     });
     enemy_templates["Elite wolf rat"] = new Enemy({
@@ -186,9 +186,9 @@ const enemy_abilites = {
         tags: ["living", "beast", "wolf rat"],
         stats: {health: 80, attack: 32, agility: 30, dexterity: 24, intuition: 24, magic: 0, attack_speed: 1.5, defense: 8},
         loot_list: [
-            {item_name: "Rat tail", chance: 0.04},
-            {item_name: "Rat fang", chance: 0.04},
-            {item_name: "Rat pelt", chance: 0.02},
+            {item_name: "Rat tail", chance: 0.15},
+            {item_name: "Rat fang", chance: 0.15},
+            {item_name: "Rat pelt", chance: 0.8},
         ]
     });
     enemy_templates["Elite wolf rat guardian"] = new Enemy({
@@ -200,10 +200,10 @@ const enemy_abilites = {
         tags: ["living", "beast", "wolf rat", "monster"],
         stats: {health: 600, attack: 60, agility: 50, dexterity: 50, intuition: 50, magic: 0, attack_speed: 1.2, defense: 30},
         loot_list: [
-            {item_name: "Rat tail", chance: 0.04},
-            {item_name: "Rat fang", chance: 0.04},
-            {item_name: "Rat pelt", chance: 0.02},
-            {item_name: "Weak monster bone", chance: 0.005},
+            {item_name: "Rat tail", chance: 0.2},
+            {item_name: "Rat fang", chance: 0.2},
+            {item_name: "Rat pelt", chance: 0.12},
+            {item_name: "Weak monster bone", chance: 0.04},
         ]
     });
     enemy_templates["Wall rat"] = new Enemy({
@@ -215,8 +215,8 @@ const enemy_abilites = {
         tags: ["living", "beast", "wolf rat", "monster", "eldritch"],
         stats: {health: 4000, attack: 100, agility: 2, dexterity: 120, intuition: 200, magic: 0, attack_speed: 2, attack_count: 4, defense: 20},
         loot_list: [
-            {item_name: "Rat tail", chance: 0.08},
-            {item_name: "Rat fang", chance: 0.08},
+            {item_name: "Rat tail", chance: 0.25},
+            {item_name: "Rat fang", chance: 0.25},
         ],
     });
 
@@ -227,8 +227,8 @@ const enemy_abilites = {
         tags: ["living", "beast"],
         stats: {health: 200, attack: 22, agility: 34, dexterity: 34, intuition: 32, magic: 0, attack_speed: 1, defense: 12},
         loot_list: [
-            {item_name: "Wolf fang", chance: 0.03},
-            {item_name: "Wolf pelt", chance: 0.01},
+            {item_name: "Wolf fang", chance: 0.05},
+            {item_name: "Wolf pelt", chance: 0.03},
         ],
         size: enemy_sizes.MEDIUM,
     });
@@ -241,8 +241,8 @@ const enemy_abilites = {
         tags: ["living", "beast"],
         stats: {health: 150, attack: 25, agility: 34, dexterity: 30, intuition: 24, magic: 0, attack_speed: 1.4, defense: 6},
         loot_list: [
-            {item_name: "Wolf fang", chance: 0.03},
-            {item_name: "Wolf pelt", chance: 0.01},
+            {item_name: "Wolf fang", chance: 0.08},
+            {item_name: "Wolf pelt", chance: 0.05},
         ],
         size: enemy_sizes.SMALL,
     });
@@ -255,8 +255,8 @@ const enemy_abilites = {
         tags: ["living", "beast"],
         stats: {health: 250, attack: 40, agility: 50, dexterity: 50, intuition: 40, magic: 0, attack_speed: 1.3, defense: 20},
         loot_list: [
-            {item_name: "Wolf fang", chance: 0.04},
-            {item_name: "Wolf pelt", chance: 0.02},
+            {item_name: "Wolf fang", chance: 0.1},
+            {item_name: "Wolf pelt", chance: 0.08},
             {item_name: "High quality wolf fang", chance: 0.0005}
         ],
         size: enemy_sizes.MEDIUM,
@@ -270,10 +270,10 @@ const enemy_abilites = {
         tags: ["living", "beast"],
         stats: {health: 1000, attack: 160, agility: 160, dexterity: 70, intuition: 70, magic: 0, attack_speed: 1.4, defense: 30},
         loot_list: [
-            {item_name: "Wolf fang", chance: 0.08},
-            {item_name: "Wolf pelt", chance: 0.04},
-            {item_name: "High quality wolf fang", chance: 0.001},
-            {item_name: "Weak monster bone", chance: 0.02}
+            {item_name: "Wolf fang", chance: 0.12},
+            {item_name: "Wolf pelt", chance: 0.1},
+            {item_name: "High quality wolf fang", chance: 0.01},
+            {item_name: "Weak monster bone", chance: 0.05}
         ],
         size: enemy_sizes.MEDIUM,
     });
@@ -286,10 +286,10 @@ const enemy_abilites = {
         tags: ["living", "beast"],
         stats: {health: 2000, attack: 240, agility: 130, dexterity: 80, intuition: 90, magic: 0, attack_speed: 1.1, defense: 40},
         loot_list: [
-            {item_name: "Wolf fang", chance: 0.12},
-            {item_name: "Wolf pelt", chance: 0.06},
+            {item_name: "Wolf fang", chance: 0.15},
+            {item_name: "Wolf pelt", chance: 0.1},
             {item_name: "Weak monster bone", chance: 0.02},
-            {item_name: "High quality wolf fang", chance: 0.0015}
+            {item_name: "High quality wolf fang", chance: 0.015}
         ],
         size: enemy_sizes.MEDIUM,
     });
@@ -302,10 +302,10 @@ const enemy_abilites = {
         tags: ["living", "beast"],
         stats: {health: 600, attack: 50, agility: 30, dexterity: 50, intuition: 60, magic: 0, attack_speed: 1, defense: 35},
         loot_list: [
-            {item_name: "Boar hide", chance: 0.04},
-            {item_name: "Boar meat", chance: 0.02},
-            {item_name: "Boar tusk", chance: 0.02},
-            {item_name: "High quality boar tusk", chance: 0.0005},
+            {item_name: "Boar hide", chance: 0.1},
+            {item_name: "Boar meat", chance: 0.2},
+            {item_name: "Boar tusk", chance: 0.08},
+            {item_name: "High quality boar tusk", chance: 0.005},
         ],
         size: enemy_sizes.MEDIUM,
     });
@@ -319,10 +319,10 @@ const enemy_abilites = {
         size: enemy_sizes.MEDIUM,
         stats: {health: 600, attack: 120, agility: 100, dexterity: 60, magic: 0, intuition: 60, attack_speed: 0.5, defense: 50},
         loot_list: [
-            {item_name: "Mountain goat hide", chance: 0.04},
-            {item_name: "Goat meat", chance: 0.02},
-            {item_name: "Mountain goat horn", chance: 0.02},
-            {item_name: "Pristine mountain goat horn", chance: 0.0005},
+            {item_name: "Mountain goat hide", chance: 0.1},
+            {item_name: "Goat meat", chance: 0.1},
+            {item_name: "Mountain goat horn", chance: 0.08},
+            {item_name: "Pristine mountain goat horn", chance: 0.005},
         ],
     });
 
@@ -334,9 +334,9 @@ const enemy_abilites = {
         tags: ["living", "beast"],
         stats: {health: 6000, attack: 600, agility: 160, dexterity: 200, intuition: 200, magic: 0, attack_speed: 0.8, defense: 500},
         loot_list: [
-            {item_name: "Bear hide", chance: 0.05},
+            {item_name: "Bear hide", chance: 0.1},
             {item_name: "Bear claw", chance: 0.1},
-            {item_name: "Sharp bear claw", chance: 0.002},
+            {item_name: "Sharp bear claw", chance: 0.02},
         ],
         size: enemy_sizes.LARGE,
     });
@@ -349,8 +349,8 @@ const enemy_abilites = {
         tags: ["living", "beast"],
         stats: {health: 12000, attack: 500, agility: 250, dexterity: 300, intuition: 100, magic: 0, attack_speed: 0.8, defense: 400},
         loot_list: [
-            {item_name: "Frog meat", chance: 0.08},
-            {item_name: "Frog hide", chance: 0.05},
+            {item_name: "Frog meat", chance: 0.1},
+            {item_name: "Frog hide", chance: 0.08},
             {item_name: "Weak monster bone", chance: 0.05},
         ],
         size: enemy_sizes.LARGE,
@@ -387,10 +387,10 @@ const enemy_abilites = {
         stats: {health: 600, attack: 4, agility: 100, dexterity: 200, intuition: 100, magic: 0, attack_speed: 1.5, attack_count: 30, defense: 10},
         size: enemy_sizes.SMALL,
         loot_list: [
-            {item_name: "Oneberry", chance: 0.005},
-            {item_name: "Golmoon leaf", chance: 0.005},
-            {item_name: "Belmart leaf", chance: 0.005},
-            {item_name: "Wood log", chance: 0.002},
+            {item_name: "Oneberry", chance: 0.05},
+            {item_name: "Golmoon leaf", chance: 0.05},
+            {item_name: "Belmart leaf", chance: 0.05},
+            {item_name: "Wood log", chance: 0.02},
         ],
     });
 
@@ -457,7 +457,7 @@ const enemy_abilites = {
         tags: ["living", "beast", "aquatic"],
         stats: {health: 2000, attack: 75, agility: 120, dexterity: 90, intuition: 50, magic: 0, attack_speed: 1.3, attack_count: 2, defense: 145},
         loot_list: [
-            {item_name: "Crab meat", chance: 0.02},
+            {item_name: "Crab meat", chance: 0.08},
         ]
     });
 
@@ -470,9 +470,9 @@ const enemy_abilites = {
         tags: ["living", "beast", "aquatic"],
         stats: {health: 7000, attack: 160, agility: 180, dexterity: 160, intuition: 120, magic: 0, attack_speed: 1.7, attack_count: 2, defense: 700},
         loot_list: [
-            {item_name: "Crab meat", chance: 0.05},
-            {item_name: "Crab claw", chance: 0.01},
-            {item_name: "Giant crab claw", chance: 0.005},
+            {item_name: "Crab meat", chance: 0.08},
+            {item_name: "Crab claw", chance: 0.05},
+            {item_name: "Giant crab claw", chance: 0.02},
         ]
     });
 
@@ -485,8 +485,8 @@ const enemy_abilites = {
         tags: ["living", "beast", "aquatic"],
         stats: {health: 16750, attack: 830, agility: 250, dexterity: 350, intuition: 120, magic: 0, attack_speed: 1.6, defense: 545},
         loot_list: [
-            {item_name: "Alligator meat", chance: 0.02},
-            {item_name: "Alligator skin", chance: 0.01},
+            {item_name: "Alligator meat", chance: 0.08},
+            {item_name: "Alligator skin", chance: 0.05},
         ]
     });
 
@@ -499,8 +499,8 @@ const enemy_abilites = {
         tags: ["living", "beast", "aquatic"],
         stats: {health: 22000, attack: 525, agility: 230, dexterity: 220, intuition: 130, magic: 0, attack_speed: 0.9, defense: 1000},
         loot_list: [
-            {item_name: "Turtle meat", chance: 0.02},
-            {item_name: "Turtle shell", chance: 0.005},
+            {item_name: "Turtle meat", chance: 0.08},
+            {item_name: "Turtle shell", chance: 0.04},
         ]
     });
 
@@ -513,8 +513,8 @@ const enemy_abilites = {
         tags: ["living", "beast"],
         stats: {health: 12500, attack: 440, agility: 260, dexterity: 460, intuition: 150, magic: 0, attack_speed: 2.7, defense: 385},
         loot_list: [
-            {item_name: "Giant snake meat", chance: 0.02},
-            {item_name: "Giant snake skin", chance: 0.01},
+            {item_name: "Giant snake meat", chance: 0.08},
+            {item_name: "Giant snake skin", chance: 0.04},
         ]
     });
 })();

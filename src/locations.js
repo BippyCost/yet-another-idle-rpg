@@ -2850,7 +2850,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
                 unable_to_begin: ["You try for a bit, but you quickly realize you are not fit enough for this task."],
             },
             check_conditions_on_finish: false,
-            attempt_duration: 480,
+            attempt_duration: 120,
             success_chances: [1],
             keep_progress: true,
             required: {
@@ -2963,7 +2963,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
             action_text: "Hiking through the wilderness, attempting to follow the river",
             success_text: "After hiking for well over a day, you finally come across a relatively clear point on the river with recognizable landmarks and signs of crabs."
                         + " It feels like a long way off from the village, but you're confident that you can get back here again, and faster too",
-            attempt_duration: 2160,
+            attempt_duration: 120,
             success_chances: [1],
             rewards: {
                 locations: [{location: "Downstream from the village"}],
@@ -2980,7 +2980,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
                 unable_to_begin: ["You should get a shovel first. Perhaps someone has a spare one, or maybe you can buy one from the village market?"],
             },
             check_conditions_on_finish: false,
-            attempt_duration: 600,
+            attempt_duration: 120,
             success_chances: [1],
             keep_progress: true,
             required: {
@@ -3026,7 +3026,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
                         + "while also being easy to replace if necessary. The entire structure is supported by two robust stone pillars rising proudly from the water, thick and shaped to withstand any current, "
                         + "no matter how swollen the river may become. The structure stands as a monument to careful planning and dedication and will serve as a gift to future generations.",
             failure_texts: {},
-            attempt_duration: 720,
+            attempt_duration: 120,
             success_chances: [1],
             rewards: {
                 quest_progress: [
@@ -3170,7 +3170,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
             failure_texts: {
                 conditional_loss: ["You lack camping supplies!"],
             },
-            attempt_duration: 180,
+            attempt_duration: 120,
             success_chances: [1],
             rewards: {
                 locations: [{location: "Mountain camp"}],
@@ -3309,7 +3309,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
                     "At some point you got distracted and lost your way",
                 ],
             },
-            attempt_duration: 180,
+            attempt_duration: 120,
             success_chances: [0.7],
             rewards: {
                 locations: [{location: "Forest den"}],
@@ -3343,7 +3343,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
                     }
                 }
             ],
-            attempt_duration: 180,
+            attempt_duration: 120,
             success_chances: [0.2, 1],
             rewards: {
                 locations: [{location: "Carya Canyon"}],
@@ -3368,7 +3368,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
                     "You are not perceptive enough for this...",
                 ]
             },
-            attempt_duration: 180,
+            attempt_duration: 120,
             success_chances: [0.4, 1],
             conditions: [
                 {
@@ -3415,7 +3415,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
                     }
                 }
             ],
-            attempt_duration: 240,
+            attempt_duration: 120,
             success_chances: [0.7],
             rewards: {
                 locations: [{location: "Precarious tree bridge"}],
@@ -3431,7 +3431,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
             description: "They live somewhere down there",
             action_text: "Digging",
             success_text: "You find an ant tunnel, just barely wide enough for you to enter",
-            attempt_duration: 180,
+            attempt_duration: 120,
             success_chances: [1],
             rewards: {
                 locations: [{location: "Red ant nest 1"}],
@@ -3445,7 +3445,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
             description: "They live somewhere down there",
             action_text: "Digging",
             success_text: "You find an ant tunnel, just barely wide enough for you to enter",
-            attempt_duration: 240,
+            attempt_duration: 120,
             success_chances: [1],
             rewards: {
                 locations: [{location: "Red ant nest 2"}],
@@ -3459,7 +3459,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
             description: "They live somewhere down there",
             action_text: "Digging",
             success_text: "You find an ant tunnel, just barely wide enough for you to enter",
-            attempt_duration: 300,
+            attempt_duration: 120,
             success_chances: [1],
             rewards: {
                 locations: [{location: "Red ant nest 3"}],
@@ -3473,7 +3473,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
             description: "There must be other nests out there",
             action_text: "Searching",
             success_text: "You find a massive complex of ant tunnels, just barely wide enough for you to enter",
-            attempt_duration: 600,
+            attempt_duration: 120,
             success_chances: [1],
             failure_texts: {
                 unable_to_begin: ["You can't do that without a shovel!"],
@@ -3559,7 +3559,7 @@ There's another gate on the wall in front of you, but you have a strange feeling
                 },
             ],
             is_unlocked: false,
-            attempt_duration: 180,
+            attempt_duration: 120,
             success_chances: [0.45, 1],
             rewards: {
                 locations: [{location: "Waterfall basin"}],

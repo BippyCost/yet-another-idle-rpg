@@ -2524,11 +2524,11 @@ There's another gate on the wall in front of you, but you have a strange feeling
             is_unlocked: false,
             gained_resources: {
                 resources: [
-                    {name: "Oneberry", chance: [0.1, 0.5]},
-                    {name: "Golmoon leaf", chance: [0.1, 0.7]},
-                    {name: "Belmart leaf", chance: [0.1, 0.7]}
+                    {name: "Oneberry", chance: [0.3, 1]},
+                    {name: "Golmoon leaf", chance: [0.2, 1]},
+                    {name: "Belmart leaf", chance: [0.2, 1]}
                 ], 
-                time_period: [60, 10],
+                time_period: [40, 5],
                 skill_required: [0, 15]
             },
             require_tool: true,
@@ -2555,10 +2555,10 @@ There's another gate on the wall in front of you, but you have a strange feeling
             is_unlocked: false,
             gained_resources: {
                 resources: [
-                    {name: "Belmart leaf", ammount: [[1,1], [1,2]], chance: [0.2, 1]},
-                    {name: "Golmoon leaf", chance: [0.05, 0.4]},
+                    {name: "Belmart leaf", ammount: [[1,1], [3,6]], chance: [0.4, 1]},
+                    {name: "Golmoon leaf", chance: [0.1, 0.9]},
                 ],
-                time_period: [60, 15],
+                time_period: [40, 7],
                 skill_required: [10, 25],
             },
             require_tool: true,
@@ -2573,9 +2573,9 @@ There's another gate on the wall in front of you, but you have a strange feeling
             is_unlocked: false,
             gained_resources: {
                 resources: [
-                    {name: "Cooking herbs", ammount: [[1,1], [2,4]], chance: [0.1, 1]},
+                    {name: "Cooking herbs", ammount: [[1,1], [3,6]], chance: [0.1, 1]},
                 ], 
-                time_period: [60, 10],
+                time_period: [40, 10],
                 skill_required: [5, 20]
             },
             require_tool: true,
@@ -2625,9 +2625,9 @@ There's another gate on the wall in front of you, but you have a strange feeling
             is_unlocked: false,
             gained_resources: {
                 resources: [
-                    { name: "Silver thistle", chance: [0.1, 1] },
+                    { name: "Silver thistle", chance: [0.4, 1] },
                 ],
-                time_period: [60, 20],
+                time_period: [40, 15],
                 skill_required: [7, 24]
             },
             require_tool: true,
@@ -2653,8 +2653,8 @@ There's another gate on the wall in front of you, but you have a strange feeling
             skill_xp_per_tick: 9,
             is_unlocked: false,
             gained_resources: {
-                resources: [{name: "Flax", ammount: [[1,1], [1,3]], chance: [0.4, 1]}], 
-                time_period: [60, 20],
+                resources: [{name: "Flax", ammount: [[1,1], [4,8]], chance: [0.4, 1]}], 
+                time_period: [40, 15],
                 skill_required: [12, 27]
             },
             require_tool: true,
@@ -2790,10 +2790,10 @@ There's another gate on the wall in front of you, but you have a strange feeling
             is_unlocked: false,
             gained_resources: {
                 resources: [
-                    {name: "Wild onion", chance: [0.2, 0.65]},
-                    {name: "Wild garlic", chance: [0.2, 0.65]},
-                    {name: "Wild potato", ammount: [[1,1], [1,2]], chance: [0.3, 0.6]},
-                    {name: "Cooking herbs", ammount: [[1,1], [1,2]], chance: [0.3, 0.6]}
+                    {name: "Wild onion", chance: [0.2, 0.9]},
+                    {name: "Wild garlic", chance: [0.2, 0.9]},
+                    {name: "Wild potato", ammount: [[1,1], [2,4]], chance: [0.3, 0.9]},
+                    {name: "Cooking herbs", ammount: [[1,1], [2,4]], chance: [0.3, 0.9]}
                 ], 
                 time_period: [45, 15],
                 skill_required: [21, 30],
